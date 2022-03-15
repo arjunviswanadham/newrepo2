@@ -1,9 +1,37 @@
-namespace HelloWorld
+using System;
+
+ 
+ 
+
+ 
+namespace helloWorld
+
+ 
 {
-    class Hello {         
-        static void Main(string[] args)
-        {
-            System.Console.WriteLine("Hello World!");
-        }
-    }
+
+ 
+class Program
+
+ 
+{
+
+ 
+static void Main(string[] args)
+
+ 
+{
+
+ 
+string name = args[0];
+
+ 
+Console.WriteLine("Hello {0}", name);
+
+ 
+}
+
+ 
+}
+
+ 
 }
